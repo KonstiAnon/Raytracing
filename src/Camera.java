@@ -10,4 +10,19 @@ public class Camera {
         this.up = up;
     }
 
+    public double getFov() {
+        return fov;
+    }
+
+    public Vector3 getPosition() {
+        return position;
+    }
+
+    public Vector3 getDirection() {
+        return direction;
+    }
+
+    public Vector3 getUp() {
+        return up;
+    }
 }
